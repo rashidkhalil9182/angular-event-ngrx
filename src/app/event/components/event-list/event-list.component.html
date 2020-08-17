@@ -1,0 +1,11 @@
+<ul class="ul">
+  <div class="box_event" *ngFor="let attendee of attendees">
+    <div class="picture_event">Picture</div>
+    <div class="box-color">
+      <p class="name">{{attendee.name}}</p>
+      <div class="add">{{ attendee && attendee.address ? attendee.address : '-'}}</div>
+      <div class="date">{{(attendee && attendee.date) ?  (attendee.date | date:'MMMM d') : '-'}}</div>
+    </div>
+
+  </div> <br />
+</ul>

@@ -1,0 +1,9 @@
+<!-- <h1>The App</h1> -->
+<div class="menu">
+  <button class="menu_button" [routerLink]="['/home']" routerLinkActive="router-link-active">Home</button>
+  <button class="menu_button" [routerLink]="['/event']" routerLinkActive="router-link-active">Event</button>
+</div>​
+<div class="title">{{title}}</div>
+<div style="margin-top: 100px;">
+  <router-outlet></router-outlet>
+</div>

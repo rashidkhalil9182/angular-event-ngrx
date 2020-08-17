@@ -1,0 +1,26 @@
+<form [formGroup]="eventForm" (ngSubmit)="submit()">
+    <div>
+        <label class="label">Event Name</label><br>
+        <input class="input" type="text" formControlName="name">
+    </div>
+    <div class="clear"></div>
+    <br />
+    <div>
+        <label class="label">Address</label><br>
+        <input class="input" type="text" formControlName="address">
+    </div>
+    <!-- <div class="clear"></div> -->
+    <br />
+    <div>
+        <label class="label">Date</label><br>
+        <input class="input" type="date" formControlName="date">
+        <div *ngIf="!eventForm.controls['date'].hasError('required') && eventForm.controls['date'].invalid"
+            class="alert-danger">
+            invalid dae format
+        </div>
+    </div>
+    <br />
+    <!-- <div class="clear"></div> -->
+
+    <button class="sub" type="submit">Add</button>
+</form>

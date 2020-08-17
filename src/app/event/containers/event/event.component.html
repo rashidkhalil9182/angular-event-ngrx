@@ -1,0 +1,16 @@
+<div>
+    <div *ngIf="show" class="" (click)="show=false;">
+        <a href="javascript:void(0)">
+            <span class="glyphicon glyphicon-step-backward"></span>
+        </a>
+    </div>
+</div>
+<app-add-attendee *ngIf="show" (addAttendee)="addAttendee($event)"></app-add-attendee>
+<app-event-list *ngIf="!(spinner$ | async) && !show" [attendees]="attendees$ | async"></app-event-list>
+<div class="add-box" (click)="addMore()" *ngIf="!show">
+    <div class="add_main">
+        <div class="plus">+</div>
+        <p class="add-title">Add More</p>
+    </div>
+</div>
+<div *ngIf="spinner$ | async">loading..</div>

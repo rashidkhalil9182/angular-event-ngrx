@@ -1,0 +1,102 @@
+.box{
+
+// position: absolute;
+width: 177px;
+// height: 212px;
+left: 62px;
+top: 138px;
+margin-bottom: 10px;
+background: #C4C4C4;
+display:inline-block;
+margin-right: 10px;;
+}
+
+.picture{
+    // position: absolute;
+    text-align: center;
+    padding-top: 30px;
+width: 127px;
+height: 52px;
+left: 87px;
+top: 192px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+.box-color{
+    // position: absolute;
+width: 178px;
+height: 76px;
+left: 61px;
+top: 274px;
+
+background: #DD005D;
+}
+.name{
+    // position: absolute;
+width: 135px;
+height: 30px;
+left: 66px;
+top: 274px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 15px;
+line-height: 42px;
+
+color: #FFFFFF;
+}
+
+.add{
+    // position: absolute;
+width: 68px;
+height: 21px;
+left: 66px;
+top: 326px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 21px;
+/* identical to box height */
+
+display: inline-block;
+color: #FFFFFF;
+}
+
+.date{
+    // position: absolute;
+width: 62px;
+height: 21px;
+left: 170px;
+top: 326px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 21px;
+/* identical to box height */
+display: inline-block;
+text-align: right;;
+color: #000000;
+}
+.sub{
+    // \position: absolute;
+width: 183px;
+height: 41px;
+left: 129px;
+top: 351px;
+
+
+}
+.ul{
+        display: inline-block;
+}

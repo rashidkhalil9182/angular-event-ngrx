@@ -1,0 +1,39 @@
+.menu {
+  display: flex;
+      position: absolute;
+    width: 745px;
+    height: 43px;
+    left: 61px;
+    top: 25px;
+    background: #C4C4C4;
+}
+.router-link-active {
+  // color: blue;
+
+
+color: #D8034F;
+}
+
+.menu_button{
+
+font-family: Roboto;
+font-style: italic;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+}
+.title{
+  position: absolute;
+width: 97px;
+height: 42px;
+left: 68px;
+top: 74px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+}

@@ -1,0 +1,46 @@
+form {
+  display: block;
+}
+
+.label{
+
+// position: absolute;
+width: 251px;
+height: 23px;
+left: 129px;
+top: 155px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+}
+
+.input{
+  // position: absolute;
+width: 314px;
+height: 29px;
+left: 129px;
+top: 184px;
+
+background: #C4C4C4;
+}
+.clear {
+    clear: both;
+}
+
+.sub{
+width: 183px;
+    height: 41px;
+    left: 129px;
+    top: 351px;
+    background: #C4C4C4;
+    text-align: center;
+    font-weight: 900;
+    font-size: 17px;
+
+}
